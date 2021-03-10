@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+   
+
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: black;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+nav ul{
+    margin-left: 200px;
+}
+nav ul li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    
+    
+}
+nav h1{
+    
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.box-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 40px;
+    
+
+}
+
+.box{
+    width: 250px;
+    height: 280px;
+    background-color: #272525;
+    margin: 10px;
+    padding: 40px;
+    overflow: hidden;
+    }
+
+
+.box:hover{
+    background-color: crimson;
+} 
+.box:hover .fa-home{
+    color: rgb(212, 182, 188);
+} 
+.box h2{
+    color: white;
+    
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.box p{
+    color: white;
+     font-size: 14px;
+    
+}
+
+.container{
+    width: 50%;
+    
+}
+
+.container h2{
+    color: blanchedalmond;
+    font-size: 70px;
+    margin-top: 5px;
+}
+.container button{
+    color: blanchedalmond;
+    padding: 10px 25px 10px 25px;
+    
+    border-color: crimson;
+    background-color: black;
+}
+ .fa-home{
+    color:crimson;
+    font-size: 40px;
+    
+}
+.fa-phone{
+    color:crimson;
+    font-size: 40px;
+    
+}
+
+.border{
+    height: 3px;
+    background-color: brown;
+}
+.card-border{
+    
+    width:60px;
+}
+
+.heading-border {
+    
+    margin-top: 100px;
+    width: 50px;
+}
+
+.nav-border{
+    margin-top: 5px;
+    width:0px;
+    position: absolute;
+    background-color: brown;
+
+}
+
+li:hover p{
+    height: 3px;
+    width:30px;
+    transition: all 300ms ease-in;
+}
+
+@media only screen and (max-width: 780px) {
+    body{
+        
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .box{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    
+    .container h2{
+        
+        font-size: 40px;
+        margin-top: 5px;
+    }
+    nav ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    nav ul li{
+        font-size: 16px;
+        padding: 10px;
+        justify-content: space-evenly;
+         }
+    
+    nav{
+        
+        display: initial;
+       
+    }
+    nav h1{
+        margin-left: 35%;
+        font-size: 35px;
+    }
+    
+  }
+  @media only screen and (max-width: 480px){
+    nav h1{
+        margin-left: 20%;
+        
+    }
+  }
+
+
+
+
+
